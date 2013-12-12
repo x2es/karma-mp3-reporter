@@ -1,0 +1,30 @@
+{
+  "name": "karma-mp3-reporter",
+  "version": "0.0.1",
+  "description": "A Karma reporter plugin. Reports overall results by playing mp3 file.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x2es/karma-mp3-reporter.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "tdd",
+    "sound",
+    "audio",
+    "mp3",
+    "music"
+  ],
+  "author": "Konstantin Ivanov [x@ES] <KEIvanov@gmail.com>",
+  "dependencies": {
+    "player": "latest"
+  },
+  "peerDependencies": {
+    "karma": ">=0.10"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "contributors": []
+}
