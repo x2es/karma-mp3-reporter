@@ -1,4 +1,4 @@
-# karma-dbus-reporter
+# karma-mp3-reporter
 
 > Report overall tests results using mp3 files.
 
@@ -20,7 +20,7 @@ The easiest way is to keep `karma-mp3-reporter` as a devDependency in your `pack
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-mp3-reporter": "https://github.com/x2es/karma-mp3-reporter.git"
+    "karma-mp3-reporter": "https://github.com/x2es/karma-mp3-reporter/tarball/master"
   }
 }
 ```
