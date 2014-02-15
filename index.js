@@ -10,7 +10,7 @@ var Mp3Reporter = function(config) {
   // default configuration
   var cfg = {
     red:   path.join(soundDir, 'airplane-alert.mp3'),
-    green: path.join(soundDir, 'page-turn.mp3')
+    green: path.join(soundDir, 'lite-bounce.mp3')
   }
 
   // merge config over defaults
