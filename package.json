@@ -1,6 +1,6 @@
 {
   "name": "karma-mp3-reporter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Karma reporter plugin. Reports overall results by playing mp3 file.",
   "main": "index.js",
   "repository": {
