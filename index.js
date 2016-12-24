@@ -53,6 +53,11 @@ var Mp3Reporter = function(config) {
     // playersCache[target].play();
 
     var p = new Player(cfg[target]);
+    // workaround for https://github.com/guo-yu/player/issues/51
+    p.on('error', function(err) {
+      if (err === "No next song was found") return;
+      throw '<player>: ' + err;
+    });
     p.play();
   }
 
