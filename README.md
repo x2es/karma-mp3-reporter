@@ -15,19 +15,25 @@ But if I broked something I'd like to pay attention.
 
 ## Installation
 
+Ubuntu
+
+```bash
+$ sudo apt-get install libasound2-dev
+```
+
 The easiest way is to keep `karma-mp3-reporter` as a devDependency in your `package.json`.
 ```json
 {
   "devDependencies": {
-    "karma": "~0.10",
-    "karma-mp3-reporter": "https://github.com/x2es/karma-mp3-reporter/tarball/master"
+    "karma": "~1.3.0",
+    "karma-mp3-reporter": "x2es/karma-mp3-reporter"
   }
 }
 ```
 
 You can simple do it by:
 ```bash
-npm install karma-mp3-reporter --save-dev
+npm install x2es/karma-mp3-reporter --save-dev
 ```
 
 ## Configuration
